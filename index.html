@@ -1,0 +1,32 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="main-section">
+            <h1>Color Alchemist 🧙🏻‍♂️</h1>
+            <div class="output" id="output-row">
+            </div>
+            <div class="input-row">
+                <label for="color">Color</label>
+                <input type="color" name="color-input" id="color-input" required>
+                <select name='scheme-input' id='scheme-input' required>
+                    <option value="monochrome">monochrome</option>
+                    <option value="monochrome-dark">monochrome-dark</option>
+                    <option value="monochrome-light">monochrome-light</option>
+                    <option value="analogic">analogic</option>
+                    <option value="complement">complement</option>
+                    <option value="analogic-complement">analogic-complement</option>
+                    <option value="triad">triad</option>
+                    <option value="quad">quad</option>
+                </select>
+                <button id='color-btn'>Get color scheme</button>
+            </div>
+        </section>
+        <script src="index.js"></script>
+    </body>
+</html>
